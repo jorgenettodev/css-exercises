@@ -83,6 +83,7 @@
   font-weight: normal;
 }
 
+/* nav start*/
 .nav {
   background-color: #FF7755;
   grid-area: nav;
@@ -91,8 +92,15 @@
 .nav ul li {
   font-size: 16px;
   text-transform: uppercase;
-
 }
+
+.nav ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* nav end */
+
 
 .article {
   background-color: #bccbde;
