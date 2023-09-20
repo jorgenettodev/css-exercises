@@ -12,6 +12,7 @@
   "sidebar nav"
   "sidebar article"
   "footer footer";
+  grid-gap: 5px;
 }
 
 .container div {
